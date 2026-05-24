@@ -1,0 +1,28 @@
+{
+  "name": "url-shortener-server",
+  "version": "1.0.0",
+  "description": "URL shortener server",
+  "main": "index.js",
+  "engines": {
+    "node": ">=18",
+    "npm": ">=10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server"
+  },
+  "type":"commonjs",
+  "author": "Tanishq Tyagi",
+  "license": "ISC",
+  "homepage": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.15.1",
+    "nanoid": "^5.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
