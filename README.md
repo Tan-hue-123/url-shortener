@@ -90,11 +90,4 @@ npm run dev
 4. Click the shorten button
 5. Copy and share your new short link
 
----
-
-## 🚀 Deployment
-
-- Frontend: Vercel
-- Backend: Render
-
----
+```
